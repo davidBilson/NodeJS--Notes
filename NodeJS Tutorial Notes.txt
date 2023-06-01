@@ -1,0 +1,50 @@
+Course structure NodeJS (5 videos per day codevolution)
+
+- Terms and concept
+- Modules (User defined)
+- Built-in modules
+- Nodejs internals
+- npm
+- CLI (command line interface) tools 
+- Miscellaneous
+
+Prerequisites
+- Modern JavaScript ES6
+
+ECMA - industry association dedicated to the standardization of information and communication systems
+ECMAScript refers to the standard language while JavaScript is what we use in practice and builds on top of ECMAScript
+ECMA-262 is the language specification
+ECMAScript is the language that implements ECMA-262
+JavaScript is basically ECMAScript at its core but builds on top of that
+ES6 is the latest standard (Modern JavaScript)
+
+JavaScript Engine
+JS cannot be understood by the computer
+JavaScript engine is a program that converts JavaScript code into machine code that allows a computer to perform specific tasks
+JS Engines are typically developed by web browser vendors
+JavaScript Engines
+V8 - Open-source JavaScript engine developed by @Google for Chrome (https://v8.dev/docs)
+SpiderMonkey - The JavaScript engine powering Mozilla Firefox
+JavaScript Core - Open source JavaScript engine developed by Apple for Safari
+Chakra - JavaScript engine for the original microsoft edge (latest version of edge uses v8)
+
+
+
+Do web browsers interpret JavaScript directly?
+Let's find out together...
+
+When a page with JS code is loaded in a browser, the browser's JavaScript engine is responsible for interpreting and executing the JS code
+
+Web browsers do not interpret JavaScript directly, JS engines are responsible for that and different browsers have their own in-built engines
+
+Google Chrome => V8 engine (https://v8.dev/docs)
+Safari => JavaScript Core (https://developer.apple.com/documentation/javascriptcore/)
+Microsoft Edge (latest version) => V8 engine
+Mozilla firefox => SpiderMonkey (https://spidermonkey.dev/docs/)
+
+Understanding how JavaScript engines work and leveraging their capabilities is essential for web developers to create dynamic and interactive web experiences.
+
+JavaScript Run Time
+JS runtime is an environment which provides all necessary components
+
+
